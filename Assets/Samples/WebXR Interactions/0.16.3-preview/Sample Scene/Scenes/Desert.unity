@@ -2134,7 +2134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &472310500
 Transform:
   m_ObjectHideFlags: 0
@@ -2824,6 +2824,10 @@ PrefabInstance:
     - target: {fileID: 8721391137196538558, guid: bc536673dd409e046b5e4162fa3e6359, type: 3}
       propertyPath: m_Name
       value: SpectatorCameraHolder
+      objectReference: {fileID: 0}
+    - target: {fileID: 8721391137196538558, guid: bc536673dd409e046b5e4162fa3e6359, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8721391137196538559, guid: bc536673dd409e046b5e4162fa3e6359, type: 3}
       propertyPath: m_RootOrder
@@ -5042,7 +5046,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1395986833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5362,7 +5366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1511763826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5862,7 +5866,7 @@ Transform:
   m_GameObject: {fileID: 1551355516}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -5875,7 +5879,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551355516}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 36899b0c3e45bf9479ddc5857deba985, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: a6ab2db0f47187a42b91311a57f579a0, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
