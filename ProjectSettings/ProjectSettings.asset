@@ -135,10 +135,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 2.0
-  preloadedAssets:
-  - {fileID: -4072412114826755665, guid: 6ac7fbe87b053ab4796291215fb8572a, type: 2}
-  - {fileID: 11400000, guid: d24ba2e74a6ba2a44a5a6d06e9c10e5c, type: 2}
-  - {fileID: 4994918121390167703, guid: ea2a6c6ba6a5f8847967a93a15d91aef, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -287,7 +284,9 @@ PlayerSettings:
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
-  m_TemplateCustomTags: {}
+  m_TemplateCustomTags:
+    DESCRIPTION: 
+    WEBXR_POLYFILL_CONFIG: 
   mobileMTRendering:
     Android: 1
     iPhone: 1
@@ -536,10 +535,10 @@ PlayerSettings:
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: APPLICATION:Default
+  webGLTemplate: PROJECT:WebXR2020
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 0
+  webGLCompressionFormat: 2
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
