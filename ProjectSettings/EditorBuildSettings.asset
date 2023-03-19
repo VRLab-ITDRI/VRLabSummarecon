@@ -6,8 +6,32 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_MAIN/Scenes/VRTest.unity
+    path: Assets/_MAIN/Scenes/1_Jalan.unity
     guid: ad65cd3c5ca99194bb8ea48dd8c36878
+  - enabled: 1
+    path: Assets/_MAIN/Scenes/2_Pintu.unity
+    guid: f5a09933fca2df8498acb49c297f4c20
+  - enabled: 1
+    path: Assets/_MAIN/Scenes/3_RuangTamuDepan.unity
+    guid: 8633d7f151377614e8d4217311b18804
+  - enabled: 1
+    path: Assets/_MAIN/Scenes/4_RuangMakan.unity
+    guid: 11fb7c50c392cad4fa2772c6b406feca
+  - enabled: 1
+    path: Assets/_MAIN/Scenes/5_HalamanDepan.unity
+    guid: cf80438b40987084e832e60f92f93c88
+  - enabled: 1
+    path: Assets/_MAIN/Scenes/6_Lantai2.unity
+    guid: 1280c325fc87ce24f9952bb803544fa4
+  - enabled: 1
+    path: Assets/_MAIN/Scenes/7_Balkon.unity
+    guid: 075345daebdbce0498f9337ce3e9a70b
+  - enabled: 1
+    path: Assets/_MAIN/Scenes/8_Kamar_CustomWarna.unity
+    guid: a867a0b5ff49dbf47aa6be1cc44dfa8c
+  - enabled: 1
+    path: Assets/_MAIN/Scenes/9_Toilet.unity
+    guid: 6b919bb5575dba24a8a0f8ebec101d03
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: eae640e72901173468801321b58a3f65, type: 2}
     WebXR.Settings: {fileID: 11400000, guid: d24ba2e74a6ba2a44a5a6d06e9c10e5c, type: 2}
