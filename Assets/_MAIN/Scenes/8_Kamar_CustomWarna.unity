@@ -561,7 +561,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a656358bcce9a814eaaeaecfe108e6a2, type: 2}
+  - {fileID: 2100000, guid: f4aeca0c115b8d949bf2e07f67ce3d75, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -978,6 +978,56 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 3431978019681743018, guid: 54a613ba6e982e84db04156af08d6a89, type: 3}
   m_PrefabInstance: {fileID: 1302711618}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1657909484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1657909485}
+  - component: {fileID: 1657909486}
+  m_Layer: 0
+  m_Name: Test_Ubah Warna
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1657909485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657909484}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1657909486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657909484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9444844076728bf468cdc727f80ea8c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 1352369459}
+  mat:
+  - {fileID: 2100000, guid: f4aeca0c115b8d949bf2e07f67ce3d75, type: 2}
+  - {fileID: 2100000, guid: 13452fc0521c8634c877afb7e015904a, type: 2}
+  - {fileID: 2100000, guid: a656358bcce9a814eaaeaecfe108e6a2, type: 2}
+  - {fileID: 2100000, guid: 0eb3dd76639f86d448d86bd19f1a6c66, type: 2}
+  debugChangeColorTo: 3
 --- !u!1 &1694373858
 GameObject:
   m_ObjectHideFlags: 0
