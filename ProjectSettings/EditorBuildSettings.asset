@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/_MAIN/Scenes/1_Jalan.unity
     guid: ad65cd3c5ca99194bb8ea48dd8c36878
   - enabled: 1
-    path: Assets/_MAIN/Scenes/5_HalamanDepan.unity
-    guid: cf80438b40987084e832e60f92f93c88
-  - enabled: 1
     path: Assets/_MAIN/Scenes/2_Pintu.unity
     guid: f5a09933fca2df8498acb49c297f4c20
   - enabled: 0
@@ -23,6 +20,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_MAIN/Scenes/4_RuangMakan.unity
     guid: 11fb7c50c392cad4fa2772c6b406feca
+  - enabled: 1
+    path: Assets/_MAIN/Scenes/5_HalamanDepan.unity
+    guid: cf80438b40987084e832e60f92f93c88
   - enabled: 0
     path: Assets/_MAIN/Scenes/6_Lantai2.unity
     guid: 1280c325fc87ce24f9952bb803544fa4
