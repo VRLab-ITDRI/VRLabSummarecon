@@ -32,10 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_MAIN/Scenes/7_Balkon.unity
     guid: 075345daebdbce0498f9337ce3e9a70b
-  - enabled: 0
+  - enabled: 1
     path: Assets/_MAIN/Scenes/8_Kamar_CustomWarna.unity
     guid: a867a0b5ff49dbf47aa6be1cc44dfa8c
-  - enabled: 0
+  - enabled: 1
     path: Assets/_MAIN/Scenes/9_Toilet.unity
     guid: 6b919bb5575dba24a8a0f8ebec101d03
   m_configObjects:

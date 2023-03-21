@@ -266,7 +266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3733014687518137914, guid: b33e0808de1a57240a974d8f6e6b2dcd, type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 8_Kamar_CustomWarna
+      value: 1_Jalan
       objectReference: {fileID: 0}
     - target: {fileID: 3733014687518137914, guid: b33e0808de1a57240a974d8f6e6b2dcd, type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
