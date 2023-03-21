@@ -7,11 +7,11 @@ public class VRChangeFurnitureColor : MonoBehaviour
     public Renderer rend;
     public Material[] mat;
     public GameObject[] colorButton;
-    private int choosedColor;
+    private int choosedColor = 0;
     // Start is called before the first frame update
     void Start()
     {
-        choosedColor = 0;
+        
     }
 
     // Update is called once per frame
@@ -61,17 +61,17 @@ public class VRChangeFurnitureColor : MonoBehaviour
 
     public void ChangeColorTo(int x)
     {
-        x = choosedColor;
+        choosedColor = x;
     }
 
     private IEnumerator DisableButton()
     {
         // tambah array game object button disini
-        colorButton[0].SetActive(false);
-        colorButton[1].SetActive(false);
-        colorButton[2].SetActive(false);
-        colorButton[3].SetActive(false);
-        colorButton[4].SetActive(false);
+        //colorButton[0].SetActive(false);
+        //colorButton[1].SetActive(false);
+        //colorButton[2].SetActive(false);
+        //colorButton[3].SetActive(false);
+        //colorButton[4].SetActive(false);
         yield return new WaitForSeconds(0.5f);
     }
 }
