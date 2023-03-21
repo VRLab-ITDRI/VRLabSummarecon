@@ -45,11 +45,13 @@ public class VRSceneController : MonoBehaviour
         Application.Quit();
     }
 
+    // fungsi keluar dan direct ke link sebuah link
     public void DirectLink(string dirLink)
     {
         StartCoroutine(ExitThenDirect());
         IEnumerator ExitThenDirect()
         {
+            // fungsi direct link ditab yg sama ini sudah deprecated, harusnya Application.OpenURL("https://linkyangdituju.com="), namun akan buka di tab baru
             Application.ExternalEval("window.open('" + dirLink + "','_self')");
             yield return new WaitForSeconds(0.5f);
             Application.Quit();
