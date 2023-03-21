@@ -6,12 +6,12 @@ public class VRChangeFurnitureColor : MonoBehaviour
 {
     public Renderer rend;
     public Material[] mat;
-    public int debugChangeColorTo;
-
+    public GameObject[] colorButton;
+    private int choosedColor;
     // Start is called before the first frame update
     void Start()
     {
-        
+        choosedColor = 0;
     }
 
     // Update is called once per frame
@@ -20,13 +20,58 @@ public class VRChangeFurnitureColor : MonoBehaviour
 #if UNITY_EDITOR
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            rend.sharedMaterial = mat[debugChangeColorTo];
+            rend.sharedMaterial = mat[choosedColor];
         }
+#endif
+        if(choosedColor == 0)
+        {
+            StartCoroutine(DisableButton());
+            colorButton[1].SetActive(true);
+            rend.sharedMaterial = mat[choosedColor];
+        }
+        if (choosedColor == 1)
+        {
+            StartCoroutine(DisableButton());
+            colorButton[2].SetActive(true);
+            rend.sharedMaterial = mat[choosedColor];
+        }
+        if (choosedColor == 2)
+        {
+            StartCoroutine(DisableButton());
+            colorButton[3].SetActive(true);
+            rend.sharedMaterial = mat[choosedColor];
+        }
+        if (choosedColor == 3)
+        {
+            StartCoroutine(DisableButton());
+            colorButton[4].SetActive(true);
+            rend.sharedMaterial = mat[choosedColor];
+        }
+        if (choosedColor == 4)
+        {
+            StartCoroutine(DisableButton());
+            colorButton[0].SetActive(true);
+            rend.sharedMaterial = mat[choosedColor];
+        }
+
+#if UNITY_EDITOR
+        Debug.Log("Warna sekarang: " + choosedColor);
 #endif
     }
 
     public void ChangeColorTo(int x)
     {
-        rend.sharedMaterial = mat[x];
+        x = choosedColor;
+    }
+
+    private IEnumerator DisableButton()
+    {
+        // tambah array game object button disini
+        colorButton[0].SetActive(false);
+        colorButton[1].SetActive(false);
+        colorButton[2].SetActive(false);
+        colorButton[3].SetActive(false);
+        colorButton[4].SetActive(false);
+        yield return new WaitForSeconds(0.5f);
     }
 }
