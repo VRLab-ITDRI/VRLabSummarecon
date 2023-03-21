@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_MAIN/Scenes/4_RuangMakan.unity
     guid: 11fb7c50c392cad4fa2772c6b406feca
-  - enabled: 1
+  - enabled: 0
     path: Assets/_MAIN/Scenes/5_HalamanDepan.unity
     guid: cf80438b40987084e832e60f92f93c88
   - enabled: 0
