@@ -527,6 +527,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 13452fc0521c8634c877afb7e015904a, type: 2}
   - {fileID: 2100000, guid: a656358bcce9a814eaaeaecfe108e6a2, type: 2}
   - {fileID: 2100000, guid: 0eb3dd76639f86d448d86bd19f1a6c66, type: 2}
+  - {fileID: 2100000, guid: 0eb3dd76639f86d448d86bd19f1a6c66, type: 2}
   debugChangeColorTo: 0
 --- !u!1 &1551355516
 GameObject:
