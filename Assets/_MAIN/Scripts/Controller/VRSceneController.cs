@@ -44,4 +44,16 @@ public class VRSceneController : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void DirectLink(string dirLink)
+    {
+        StartCoroutine(ExitThenDirect());
+        IEnumerator ExitThenDirect()
+        {
+            Application.ExternalEval("window.open('" + dirLink + "','_self')");
+            yield return new WaitForSeconds(0.5f);
+            Application.Quit();
+        }
+        
+    }
 }
