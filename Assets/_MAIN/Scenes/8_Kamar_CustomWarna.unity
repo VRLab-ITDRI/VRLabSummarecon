@@ -267,7 +267,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f4aeca0c115b8d949bf2e07f67ce3d75, type: 2}
+  - {fileID: 2100000, guid: d374c386b5b4e914dbb2ca5c410409e9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -523,10 +523,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 1352369459}
   mat:
+  - {fileID: 2100000, guid: d374c386b5b4e914dbb2ca5c410409e9, type: 2}
   - {fileID: 2100000, guid: f4aeca0c115b8d949bf2e07f67ce3d75, type: 2}
   - {fileID: 2100000, guid: 13452fc0521c8634c877afb7e015904a, type: 2}
   - {fileID: 2100000, guid: a656358bcce9a814eaaeaecfe108e6a2, type: 2}
-  - {fileID: 2100000, guid: 0eb3dd76639f86d448d86bd19f1a6c66, type: 2}
   - {fileID: 2100000, guid: 0eb3dd76639f86d448d86bd19f1a6c66, type: 2}
   debugChangeColorTo: 0
 --- !u!1 &1551355516
