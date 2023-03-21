@@ -3074,7 +3074,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 611da8dfdd869483bace2e70281e7b29, type: 2}
+  - {fileID: 2100000, guid: ea49b798139c806429eef2301b24e17c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3904,7 +3904,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 611da8dfdd869483bace2e70281e7b29, type: 2}
+  - {fileID: 2100000, guid: ea49b798139c806429eef2301b24e17c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4538,7 +4538,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4422659090696076826, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 92
+      value: 139
       objectReference: {fileID: 0}
     - target: {fileID: 4422659090696076826, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
       propertyPath: m_SizeDelta.y
@@ -4582,7 +4582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8908833148325884413, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
       propertyPath: m_Text
-      value: Exit
+      value: Menu
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6278448743809820431, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
@@ -4755,7 +4755,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 092ad21d5305e3e4da6826da29c4a41d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f25d31d739c4518489ae3de113ea9cf9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
