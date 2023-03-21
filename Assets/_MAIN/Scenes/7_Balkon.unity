@@ -615,7 +615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3733014687518137914, guid: b33e0808de1a57240a974d8f6e6b2dcd, type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 4_RuangMakan
+      value: 6_Lantai2
       objectReference: {fileID: 0}
     - target: {fileID: 3733014687518137914, guid: b33e0808de1a57240a974d8f6e6b2dcd, type: 3}
       propertyPath: onPress.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
@@ -1197,7 +1197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8908833148325884413, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
       propertyPath: m_Text
-      value: Ruang Makan
+      value: Ruang Tamu Lt.2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6278448743809820431, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
@@ -1364,7 +1364,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8140a40056de68940be117acf364f4cd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 28b9d919ab844844ca1eee488943c845, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2223,13 +2223,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1627805108}
-  m_LocalRotation: {x: -0, y: -0.25515082, z: -0, w: 0.9669013}
-  m_LocalPosition: {x: -2.11, y: 0.678, z: 1.84}
+  m_LocalRotation: {x: -0, y: -0.30136392, z: -0, w: 0.9535092}
+  m_LocalPosition: {x: -2.11, y: 1.678, z: 2.27}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -29.565, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -35.079, z: 0}
 --- !u!1001 &1712704437
 PrefabInstance:
   m_ObjectHideFlags: 0
