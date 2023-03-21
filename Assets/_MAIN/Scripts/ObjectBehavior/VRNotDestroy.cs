@@ -4,8 +4,16 @@ using UnityEngine;
 
 public class VRNotDestroy : MonoBehaviour
 {
+    private static VRNotDestroy instance = null;
+
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(this.gameObject);
+            return;
+        }
+        Destroy(this.gameObject);
     }
 }
