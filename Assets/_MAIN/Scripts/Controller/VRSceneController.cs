@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class VRSceneController : MonoBehaviour
 {
+    public VRNavigationLookAtCamera navlook;
+
     // variabel objek untuk pop up window
     public GameObject popUpWindow;
 
