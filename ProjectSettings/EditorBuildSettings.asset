@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Samples/WebXR Interactions/0.16.3-preview/Sample Scene/Scenes/Desert.unity
-    guid: 85380d4847db7b74a850284461349c36
   - enabled: 1
     path: Assets/_MAIN/Scenes/0_MainMenu.unity
     guid: 477beee9142cae2469d00ae0d3c29f6a
