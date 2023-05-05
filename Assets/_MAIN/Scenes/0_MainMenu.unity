@@ -3509,6 +3509,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1384674338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1384674340}
+  - component: {fileID: 1384674339}
+  m_Layer: 0
+  m_Name: API
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1384674339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384674338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 843d5f965ccb5794795b9eb28a36facd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pintu: {fileID: 11400000, guid: 2caa806a0e6b7c149a842c28e86924fc, type: 2}
+  RuangTamuDepan: {fileID: 11400000, guid: a47c208de01a42a4c8a5c36ac4c8a2f6, type: 2}
+  RuangMakan: {fileID: 11400000, guid: 5d8834732097e414d84732313288a536, type: 2}
+  HalamanDepan: {fileID: 11400000, guid: 7b9916986b312f5449f933e201b56be7, type: 2}
+  Lantai2: {fileID: 11400000, guid: 8b9a8e391d5bb874abec3c8cdf27201e, type: 2}
+  Balkon: {fileID: 11400000, guid: beb78c66d94f8c2409188d40206f562a, type: 2}
+  Kamar: {fileID: 11400000, guid: ad72cd3726a86e244a960d0ce9a48f98, type: 2}
+  Toilet: {fileID: 11400000, guid: 5ea2eab68fb98bd4397683900a58618a, type: 2}
+--- !u!4 &1384674340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384674338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1436942592
 GameObject:
   m_ObjectHideFlags: 0
