@@ -14,5 +14,27 @@ public class PostMethod : MonoBehaviour
     public ScriptableInteger Kamar;
     public ScriptableInteger Toilet;
 
+    void Start()
+    {
+        
+    }
 
+    public void PostData()
+    {
+        StartCoroutine(PostData_Coroutine());
+    }
+
+    IEnumerator PostData_Coroutine()
+    {
+        string uri = "https://my-json-server.typicode.com/typicode/demo/posts";
+
+        WWWForm form = new WWWForm();
+        form.AddField("Pintu", $"muran");
+
+        using (UnityWebRequest request = UnityWebRequest.Post(uri, form))
+        {
+            yield return request.SendWebRequest();
+
+        }
+    }
 }
