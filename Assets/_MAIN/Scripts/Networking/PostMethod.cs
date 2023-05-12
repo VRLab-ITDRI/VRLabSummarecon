@@ -14,11 +14,6 @@ public class PostMethod : MonoBehaviour
     public ScriptableInteger Kamar;
     public ScriptableInteger Toilet;
 
-    void Start()
-    {
-        StartCoroutine(PostData_Coroutine());
-    }
-
     public void PostData()
     {
         StartCoroutine(PostData_Coroutine());
