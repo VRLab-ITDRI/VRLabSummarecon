@@ -8,6 +8,6 @@ public class SceneCount : MonoBehaviour
 
     public void OnGain()
     {
-        sceneCounts.value += 1;
+        sceneCounts.sCounter += 1;
     }
 }

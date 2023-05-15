@@ -10,7 +10,7 @@ public class SceneCountUI : MonoBehaviour
 
     void Update()
     {
-        text.text = sceneCounts.value.ToString();
+        text.text = sceneCounts.sCounter.ToString();
     }
 
 

@@ -5,6 +5,7 @@ using UnityEngine.Networking;
 
 public class PostMethod : MonoBehaviour
 {
+    #region _VARIABLE
     public ScriptableInteger Pintu;
     public ScriptableInteger RuangTamuDepan;
     public ScriptableInteger RuangMakan;
@@ -13,7 +14,9 @@ public class PostMethod : MonoBehaviour
     public ScriptableInteger Balkon;
     public ScriptableInteger Kamar;
     public ScriptableInteger Toilet;
+    #endregion
 
+    #region _PUBLIC FUNCTION
     public void PostData()
     {
         StartCoroutine(PostData_Coroutine());
@@ -24,14 +27,14 @@ public class PostMethod : MonoBehaviour
         string uri = "http://localhost:3000/tes";
         
         WWWForm form = new WWWForm();
-        form.AddField("Pintu", Pintu.value);
-        form.AddField("RuangTamuDepan", RuangTamuDepan.value);
-        form.AddField("RuangMakan", RuangMakan.value);
-        form.AddField("HalamanDepan", HalamanDepan.value);
-        form.AddField("Lantai2", Lantai2.value);
-        form.AddField("Balkon", Balkon.value);
-        form.AddField("Kamar", Kamar.value);
-        form.AddField("Toilet", Toilet.value);
+        form.AddField("Pintu", Pintu.sCounter);
+        form.AddField("RuangTamuDepan", RuangTamuDepan.sCounter);
+        form.AddField("RuangMakan", RuangMakan.sCounter);
+        form.AddField("HalamanDepan", HalamanDepan.sCounter);
+        form.AddField("Lantai2", Lantai2.sCounter);
+        form.AddField("Balkon", Balkon.sCounter);
+        form.AddField("Kamar", Kamar.sCounter);
+        form.AddField("Toilet", Toilet.sCounter);
 
         using (UnityWebRequest request = UnityWebRequest.Post(uri, form))
         {
@@ -43,4 +46,5 @@ public class PostMethod : MonoBehaviour
 
         }
     }
+    #endregion
 }
