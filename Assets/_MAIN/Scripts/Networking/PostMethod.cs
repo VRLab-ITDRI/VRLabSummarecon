@@ -17,6 +17,10 @@ public class PostMethod : MonoBehaviour
     #endregion
 
     #region _PUBLIC FUNCTION
+    void Start()
+    {
+        StartCoroutine(PostData_Coroutine());
+    }
     public void PostData()
     {
         StartCoroutine(PostData_Coroutine());
@@ -24,7 +28,8 @@ public class PostMethod : MonoBehaviour
 
     IEnumerator PostData_Coroutine()
     {
-        string uri = "http://localhost:3000/tes";
+        string uri = "https://sfcerenity.org/api/room";
+        string uri2 = "https://sfcerenity.org/api/time";
         
         WWWForm form = new WWWForm();
         form.AddField("Pintu", Pintu.sCounter);
@@ -37,6 +42,26 @@ public class PostMethod : MonoBehaviour
         form.AddField("Toilet", Toilet.sCounter);
 
         using (UnityWebRequest request = UnityWebRequest.Post(uri, form))
+        {
+            if (request.isHttpError || request.isNetworkError)
+            {
+                yield return request.error;
+            }
+            yield return request.SendWebRequest();
+
+        }
+
+        WWWForm form2 = new WWWForm();
+        form2.AddField("Pintu", Pintu.sTimer);
+        form2.AddField("RuangTamuDepan", RuangTamuDepan.sTimer);
+        form2.AddField("RuangMakan", RuangMakan.sTimer);
+        form2.AddField("HalamanDepan", HalamanDepan.sTimer);
+        form2.AddField("Lantai2", Lantai2.sTimer);
+        form2.AddField("Balkon", Balkon.sTimer);
+        form2.AddField("Kamar", Kamar.sTimer);
+        form2.AddField("Toilet", Toilet.sTimer);
+
+        using (UnityWebRequest request = UnityWebRequest.Post(uri2, form2))
         {
             if (request.isHttpError || request.isNetworkError)
             {
