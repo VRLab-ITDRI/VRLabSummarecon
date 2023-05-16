@@ -17,10 +17,7 @@ public class PostMethod : MonoBehaviour
     #endregion
 
     #region _PUBLIC FUNCTION
-    void Start()
-    {
-        StartCoroutine(PostData_Coroutine());
-    }
+
     public void PostData()
     {
         StartCoroutine(PostData_Coroutine());
