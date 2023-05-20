@@ -6,20 +6,17 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Scriptable Integer", menuName = "Scriptable Variable/Integer")]
 public class ScriptableInteger : ScriptableObject
 {
-    public int sCounter, sTimer;
-    public bool resetOnEnable;
+    public int sCounter, sTimer, value;
 
-    public void OnEnable()
+    private void OnEnable()
     {
-        if (resetOnEnable)
-        {
-            ResetValue();
-        }
+        sCounter = value;
+        sTimer = value;
     }
 
-    public void ResetValue()
+    public void ResetOnExitPlay()
     {
-        sCounter = 0;
-        sTimer = 0;
+        sCounter = value;
+        sTimer = value;
     }
 }

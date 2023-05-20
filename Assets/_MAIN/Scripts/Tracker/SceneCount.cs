@@ -6,7 +6,7 @@ public class SceneCount : MonoBehaviour
 {
     public ScriptableInteger sceneCounts;
 
-    public void OnGain()
+    private void Start()
     {
         sceneCounts.sCounter += 1;
     }

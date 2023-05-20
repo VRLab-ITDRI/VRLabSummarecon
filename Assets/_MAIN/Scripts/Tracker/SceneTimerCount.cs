@@ -19,7 +19,7 @@ public class SceneTimerCount : MonoBehaviour
     #region _UNITY FUNCTION
     private void Start()
     {
-        currentTime = 0;
+        //currentTime = 0;
     }
 
     void Update()

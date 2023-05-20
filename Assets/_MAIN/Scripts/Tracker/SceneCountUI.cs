@@ -12,6 +12,4 @@ public class SceneCountUI : MonoBehaviour
     {
         text.text = sceneCounts.sCounter.ToString();
     }
-
-
 }

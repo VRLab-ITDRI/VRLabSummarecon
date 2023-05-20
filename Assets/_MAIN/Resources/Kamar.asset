@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76a8781642beefc449397244d2a1a98d, type: 3}
   m_Name: Kamar
   m_EditorClassIdentifier: 
-  value: 0
-  defaultValue: 0
+  sCounter: 0
+  sTimer: 0
   resetOnEnable: 0
