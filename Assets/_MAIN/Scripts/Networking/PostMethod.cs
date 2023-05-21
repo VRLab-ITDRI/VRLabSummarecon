@@ -14,10 +14,62 @@ public class PostMethod : MonoBehaviour
     public ScriptableInteger Balkon;
     public ScriptableInteger Kamar;
     public ScriptableInteger Toilet;
+
+    [Header("Debug Counter API")]
+    //public int debugCounterPintu = 0;
+
+    public int debugCounterPintu;
+    public int debugCounterRuangTamu;
+    public int debugCounterRuangMakan;
+    public int debugCounterHalamanDepan;
+    public int debugCounterLantai2;
+    public int debugCounterBalkon;
+    public int debugCounterKamar;
+    public int debugCounterToilet;
+
+    [Header("Debug Timer API")]
+    //public int debugTimerPintu = 0;
+
+    public int debugTimerPintu;
+    public int debugTimerRuangTamu;
+    public int debugTimerRuangMakan;
+    public int debugTimerHalamanDepan;
+    public int debugTimerLantai2;
+    public int debugTimerBalkon;
+    public int debugTimerKamar;
+    public int debugTimerToilet;
+
+    TrackerPintu trackPintu;
     #endregion
 
-    #region _PUBLIC FUNCTION
+    private void Start()
+    {
+        debugCounterPintu = trackPintu.counterPintu;
+        debugTimerPintu = (int)trackPintu.timerPintu;
+    }
 
+    private void Update()
+    {
+        debugCounterPintu = PlayerPrefs.GetInt("CounterPintu");
+        debugCounterRuangTamu = PlayerPrefs.GetInt("CounterRuangTamu");
+        debugCounterRuangMakan = PlayerPrefs.GetInt("CounterRuangMakan");
+        debugCounterHalamanDepan = PlayerPrefs.GetInt("CounterHalamanDepan");
+        debugCounterLantai2 = PlayerPrefs.GetInt("CounterLantai2");
+        debugCounterBalkon = PlayerPrefs.GetInt("CounterBalkon");
+        debugCounterKamar = PlayerPrefs.GetInt("CounterKamar");
+        debugCounterToilet = PlayerPrefs.GetInt("CounterToilet");
+
+        debugTimerPintu = PlayerPrefs.GetInt("TimerPintu");
+        debugTimerRuangTamu = PlayerPrefs.GetInt("TimerRuangTamu");
+        debugTimerRuangMakan = PlayerPrefs.GetInt("TimerRuangMakan");
+        debugTimerHalamanDepan = PlayerPrefs.GetInt("TimerHalamanDepan");
+        debugTimerLantai2 = PlayerPrefs.GetInt("TimerLantai2");
+        debugTimerBalkon = PlayerPrefs.GetInt("TimerBalkon");
+        debugTimerKamar = PlayerPrefs.GetInt("TimerKamar");
+        debugTimerToilet = PlayerPrefs.GetInt("TimerToilet");
+    }
+
+    #region _PUBLIC FUNCTION
     public void PostData()
     {
         StartCoroutine(PostData_Coroutine());

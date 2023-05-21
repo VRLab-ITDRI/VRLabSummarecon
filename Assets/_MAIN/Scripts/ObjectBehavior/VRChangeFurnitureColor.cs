@@ -55,7 +55,7 @@ public class VRChangeFurnitureColor : MonoBehaviour
         }
 
 #if UNITY_EDITOR
-        Debug.Log("Warna sekarang: " + choosedColor);
+        //Debug.Log("Warna sekarang: " + choosedColor);
 #endif
     }
 
