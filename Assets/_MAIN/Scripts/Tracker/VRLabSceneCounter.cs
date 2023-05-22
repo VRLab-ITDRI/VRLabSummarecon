@@ -16,13 +16,26 @@ public class VRLabSceneCounter : MonoBehaviour
    #region _UNITY FUNCTION
     private void Start()
     {
-        PlayerPrefs.SetInt(sceneCounterName, + 1);
+        PlayerPrefs.SetInt(sceneCounterName, PlayerPrefs.GetInt(sceneCounterName) + 1);
     }
 
     private void Update()
     {
+#if UNITY_EDITOR
+        //Debug.Log("Count: " + PlayerPrefs.GetInt(sceneCounterName) + "Timer: " + PlayerPrefs.GetInt(sceneTimerName));
+#endif
         currentTime = currentTime + Time.deltaTime;
-        PlayerPrefs.SetInt(sceneTimerName, + (int)currentTime);
+        TimeSpan time = TimeSpan.FromSeconds(currentTime);
+        PlayerPrefs.SetInt(sceneTimerName, PlayerPrefs.GetInt(sceneTimerName) + (int)currentTime);
+    }
+    #endregion
+
+    #region _COROUTINE
+    IEnumerator ChangeTime()
+    {
+
+        yield return new WaitForSeconds(0.1f);
+        
     }
     #endregion
 }

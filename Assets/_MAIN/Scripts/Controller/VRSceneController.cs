@@ -53,9 +53,10 @@ public class VRSceneController : MonoBehaviour
         {
             // fungsi direct link ditab yg sama ini sudah deprecated, harusnya Application.OpenURL("https://linkyangdituju.com="), namun akan buka di tab baru
             Application.ExternalEval("window.open('" + dirLink + "','_self')");
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(0.3f);
+            PlayerPrefs.DeleteAll();
+            yield return new WaitForSeconds(0.3f);
             Application.Quit();
         }
-        
     }
 }

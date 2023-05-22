@@ -6,6 +6,7 @@ using UnityEngine.Networking;
 public class PostMethod : MonoBehaviour
 {
     #region _VARIABLE
+    /* Ini tidak terpakai */
     public ScriptableInteger Pintu;
     public ScriptableInteger RuangTamuDepan;
     public ScriptableInteger RuangMakan;
@@ -16,8 +17,6 @@ public class PostMethod : MonoBehaviour
     public ScriptableInteger Toilet;
 
     [Header("Debug Counter API")]
-    //public int debugCounterPintu = 0;
-
     public int debugCounterPintu;
     public int debugCounterRuangTamu;
     public int debugCounterRuangMakan;
@@ -28,8 +27,6 @@ public class PostMethod : MonoBehaviour
     public int debugCounterToilet;
 
     [Header("Debug Timer API")]
-    //public int debugTimerPintu = 0;
-
     public int debugTimerPintu;
     public int debugTimerRuangTamu;
     public int debugTimerRuangMakan;
@@ -38,14 +35,11 @@ public class PostMethod : MonoBehaviour
     public int debugTimerBalkon;
     public int debugTimerKamar;
     public int debugTimerToilet;
-
-    TrackerPintu trackPintu;
     #endregion
 
     private void Start()
     {
-        debugCounterPintu = trackPintu.counterPintu;
-        debugTimerPintu = (int)trackPintu.timerPintu;
+
     }
 
     private void Update()
@@ -75,6 +69,14 @@ public class PostMethod : MonoBehaviour
         StartCoroutine(PostData_Coroutine());
     }
 
+    [ContextMenu("Reset PlayerPrefs Data")]
+    public void ResetPlayerPrefs()
+    {
+        PlayerPrefs.DeleteAll();
+    }
+    #endregion
+
+    #region _COROUTINE
     IEnumerator PostData_Coroutine()
     {
         string uri = "https://sfcerenity.org/api/room";
@@ -117,7 +119,6 @@ public class PostMethod : MonoBehaviour
                 yield return request.error;
             }
             yield return request.SendWebRequest();
-
         }
     }
     #endregion
