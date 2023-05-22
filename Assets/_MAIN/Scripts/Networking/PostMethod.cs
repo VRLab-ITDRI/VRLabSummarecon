@@ -83,14 +83,14 @@ public class PostMethod : MonoBehaviour
         string uri2 = "https://sfcerenity.org/api/time";
         
         WWWForm form = new WWWForm();
-        form.AddField("Pintu", Pintu.sCounter);
-        form.AddField("RuangTamuDepan", RuangTamuDepan.sCounter);
-        form.AddField("RuangMakan", RuangMakan.sCounter);
-        form.AddField("HalamanDepan", HalamanDepan.sCounter);
-        form.AddField("Lantai2", Lantai2.sCounter);
-        form.AddField("Balkon", Balkon.sCounter);
-        form.AddField("Kamar", Kamar.sCounter);
-        form.AddField("Toilet", Toilet.sCounter);
+        form.AddField("Pintu",debugCounterPintu);
+        form.AddField("RuangTamuDepan", debugCounterRuangTamu);
+        form.AddField("RuangMakan", debugCounterRuangMakan);
+        form.AddField("HalamanDepan", debugCounterHalamanDepan);
+        form.AddField("Lantai2", debugCounterLantai2);
+        form.AddField("Balkon", debugCounterBalkon);
+        form.AddField("Kamar", debugCounterKamar);
+        form.AddField("Toilet", debugCounterToilet);
 
         using (UnityWebRequest request = UnityWebRequest.Post(uri, form))
         {
@@ -103,14 +103,14 @@ public class PostMethod : MonoBehaviour
         }
 
         WWWForm form2 = new WWWForm();
-        form2.AddField("Pintu", Pintu.sTimer);
-        form2.AddField("RuangTamuDepan", RuangTamuDepan.sTimer);
-        form2.AddField("RuangMakan", RuangMakan.sTimer);
-        form2.AddField("HalamanDepan", HalamanDepan.sTimer);
-        form2.AddField("Lantai2", Lantai2.sTimer);
-        form2.AddField("Balkon", Balkon.sTimer);
-        form2.AddField("Kamar", Kamar.sTimer);
-        form2.AddField("Toilet", Toilet.sTimer);
+        form2.AddField("Pintu", debugTimerPintu);
+        form2.AddField("RuangTamuDepan", debugTimerRuangTamu);
+        form2.AddField("RuangMakan", debugTimerRuangMakan);
+        form2.AddField("HalamanDepan", debugTimerHalamanDepan);
+        form2.AddField("Lantai2", debugTimerLantai2);
+        form2.AddField("Balkon", debugTimerBalkon);
+        form2.AddField("Kamar", debugTimerKamar);
+        form2.AddField("Toilet", debugTimerToilet);
 
         using (UnityWebRequest request = UnityWebRequest.Post(uri2, form2))
         {
