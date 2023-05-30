@@ -79,8 +79,8 @@ public class PostMethod : MonoBehaviour
     #region _COROUTINE
     IEnumerator PostData_Coroutine()
     {
-        string uri = "https://sfcerenity.org/api/room";
-        string uri2 = "https://sfcerenity.org/api/time";
+        string uri = "https://summarecon.virtualreality-lab.com/api/room";
+        string uri2 = "https://summarecon.virtualreality-lab.com/api/time";
         
         WWWForm form = new WWWForm();
         form.AddField("Pintu",debugCounterPintu);
