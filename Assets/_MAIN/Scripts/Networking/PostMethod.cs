@@ -6,16 +6,6 @@ using UnityEngine.Networking;
 public class PostMethod : MonoBehaviour
 {
     #region _VARIABLE
-    /* Ini tidak terpakai */
-    //public ScriptableInteger Pintu;
-    //public ScriptableInteger RuangTamuDepan;
-    //public ScriptableInteger RuangMakan;
-    //public ScriptableInteger HalamanDepan;
-    //public ScriptableInteger Lantai2;
-    //public ScriptableInteger Balkon;
-    //public ScriptableInteger Kamar;
-    //public ScriptableInteger Toilet;
-
     [Header("Debug Counter API")]
     public int debugCounterPintu;
     public int debugCounterRuangTamu;
