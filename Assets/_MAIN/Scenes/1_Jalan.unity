@@ -292,7 +292,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.69, y: 1.69}
+  m_Size: {x: 6.28, y: 6.28}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1023,7 +1023,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.4, y: 1.4}
+  m_Size: {x: 12.34, y: 12.35}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1105,7 +1105,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 12.56, y: 12.55}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1187,7 +1187,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.4, y: 1.4}
+  m_Size: {x: 1.03, y: 1.03}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1633,13 +1633,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1315981241}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.454, z: 2.546}
-  m_LocalScale: {x: 0.33739772, y: 0.3373977, z: 0.3373977}
+  m_LocalRotation: {x: -0, y: 0.0063849273, z: -0, w: 0.9999796}
+  m_LocalPosition: {x: 0.026, y: 1.454, z: 1.205}
+  m_LocalScale: {x: 0.1451922, y: 0.14519219, z: 0.14519219}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0.732, z: 0}
 --- !u!95 &1315981244
 Animator:
   serializedVersion: 5
@@ -1929,13 +1929,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501926967}
-  m_LocalRotation: {x: -0, y: -0.24084398, z: -0, w: 0.9705639}
-  m_LocalPosition: {x: -1.89, y: 1.824, z: 2.36}
+  m_LocalRotation: {x: -0, y: -0.50409025, z: -0, w: 0.86365104}
+  m_LocalPosition: {x: -1.01, y: 1.664, z: 0.588}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: -27.873, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -60.542, z: 0}
 --- !u!1001 &1514555572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2221,7 +2221,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 7.15, y: 4.79}
+  m_Size: {x: 39.51, y: 26.47}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2234,13 +2234,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1523283625}
-  m_LocalRotation: {x: -0.025784103, y: 0.48314098, z: 0.01789846, w: 0.8749798}
-  m_LocalPosition: {x: 3.48, y: 1.82, z: 1.68}
-  m_LocalScale: {x: 0.20869169, y: 0.20869169, z: 0.20869169}
+  m_LocalRotation: {x: -0.027623648, y: 0.38228053, z: 0.01490332, w: 0.9235131}
+  m_LocalPosition: {x: 0.915, y: 1.533, z: 0.711}
+  m_LocalScale: {x: 0.012963165, y: 0.012963165, z: 0.012963165}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: -3.579, y: 57.801, z: 0.368}
+  m_LocalEulerAnglesHint: {x: -3.579, y: 44.962, z: 0.368}
 --- !u!1001 &1524650001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2553,8 +2553,6 @@ GameObject:
   - component: {fileID: 1551355519}
   - component: {fileID: 1551355518}
   - component: {fileID: 1551355517}
-  - component: {fileID: 1551355522}
-  - component: {fileID: 1551355521}
   m_Layer: 0
   m_Name: Video 360
   m_TagString: Untagged
@@ -2594,7 +2592,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 51bb8e7be1c618f438e8a8bde0f526de, type: 2}
+  - {fileID: 2100000, guid: 42916d1344fd7e4448984c7ced31163f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2632,60 +2630,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551355516}
   m_LocalRotation: {x: 0.00005257901, y: -0.0006108958, z: 0.0007601512, w: 0.9999995}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalPosition: {x: 0, y: 1.624, z: 0.382}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0.006, y: -0.07, z: 0.087}
---- !u!114 &1551355521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1551355516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ab4dee52ec2e88488bbf27e74943b86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  videoName: Jalan.mp4
---- !u!328 &1551355522
-VideoPlayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1551355516}
-  m_Enabled: 1
-  m_VideoClip: {fileID: 0}
-  m_TargetCameraAlpha: 1
-  m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 81f42fb85ca2ac64094344ee76c2724d, type: 2}
-  m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_TargetMaterialProperty: _MainTex
-  m_RenderMode: 3
-  m_AspectRatio: 2
-  m_DataSource: 1
-  m_PlaybackSpeed: 1
-  m_AudioOutputMode: 0
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
-  m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 0
-  m_WaitForFirstFrame: 1
-  m_FrameReadyEventEnabled: 0
-  m_VideoShaders: []
 --- !u!1001 &1763456067
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4096,7 +4046,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4422659090696076826, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1626
+      value: 1584
       objectReference: {fileID: 0}
     - target: {fileID: 4422659090696076826, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
       propertyPath: m_SizeDelta.y
@@ -4148,7 +4098,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8908833148325884413, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
       propertyPath: m_Text
-      value: Tekan Tombol Menggunakan Tangan Untuk Menjalankan Perintah
+      value: Tekan Tombol Menggunakan Tangan Untuk Berpindah Ruangan
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6278448743809820431, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
